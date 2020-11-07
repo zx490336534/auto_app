@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="futureloadn">
+    <listeners>
+        <listener class-name="com.zhongxin.listener.ScreenShotListener"></listener>
+    </listeners>
+    <test name="登录">
+        <classes>
+            <class name="com.zhongxin.cases.LoginCase"></class>
+            <!--            <class name="com.zhongxin.cases.TikuCase"></class>-->
+        </classes>
+    </test>
+</suite>
